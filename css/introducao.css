@@ -9,12 +9,10 @@
 }
 
 .foto-intro {
-  max-width: 255px;
-  max-height: 270px;
+  max-width: 215px;
+  max-height: 215px;
   display: block;
   margin: 0 auto;
-  border-radius: 12px;
-  box-shadow: #ac310f 0px 4px 0px 0px;
 }
 
 .introducao h1 {
