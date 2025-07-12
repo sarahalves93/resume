@@ -1,0 +1,104 @@
+.footer-container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  place-items: center;
+}
+
+.footer-titulo {
+  padding-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #09272a;
+  font-size: 3rem;
+  line-height: 1.125;
+}
+
+.footer-texto {
+  margin-bottom: 20px;
+  font-size: 1.35rem;
+  color: #88c2c7;
+  max-width: max-content;
+  text-align: center;
+}
+
+.footer-contato {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 0;
+}
+
+.footer-contato li {
+  padding: 0;
+  font-size: 1.5rem;
+  line-height: 2.5;
+  font-weight: bold;
+  color: #eaf2f3;
+  gap: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-contato li a {
+  text-decoration: none;
+  color: #eaf2f3;
+  padding: 10px;
+}
+
+.footer-contato li a:after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 0px;
+  background: linear-gradient(90deg, #7c1b00, #ff9c7b);
+  margin-top: 4px;
+  transition: 0.3s;
+  position: absolute;
+  border-radius: 4px;
+}
+
+.footer-contato li a:hover:after {
+  width: 100%;
+}
+
+.footer-contato li a::before {
+  content: "";
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.email a::before {
+  background-image: url("../img/icons/email.svg");
+}
+
+.linkedin a::before {
+  background-image: url("../img/icons/linkedin.svg");
+}
+
+.github a::before {
+  background-image: url("../img/icons/github.svg");
+}
+
+.footer-copy {
+  margin-top: 16px;
+  text-align: center;
+  font-size: 1.125rem;
+  color: #3f868c;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 600px) {
+  .footer-contato li,
+  .footer-texto,
+  .footer-copy {
+    font-size: 1rem;
+  }
+}
