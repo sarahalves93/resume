@@ -12,7 +12,6 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  padding-left: 40px;
 }
 
 .open-work {
@@ -85,6 +84,4 @@
   .header-menu a {
     font-size: 1.125rem;
   }
-  .header-left {
-    padding: 0px;}
 }
