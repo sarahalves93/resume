@@ -1,4 +1,4 @@
-# 📄 Currículo Online - Projeto de Portfólio
+# 📄 Site Pessoal
 
 <div style="background-color: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #6f42c1; margin-bottom: 20px;">
 Projeto completo desenvolvido como trabalho final dos cursos de <strong>UX/UI Design</strong> e <strong>HTML & CSS para Iniciantes</strong> da Origamid. Uma recriação aprimorada do currículo original, com novo design e código refeito do zero.
