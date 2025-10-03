@@ -39,20 +39,8 @@
   position: relative;
 }
 
-.header-menu a:after {
-  content: "";
-  display: block;
-  height: 4px;
-  width: 0px;
-  background: linear-gradient(90deg, #7c1b00, #ff9c7b);
-  margin-top: 4px;
-  transition: 0.3s;
-  position: absolute;
-  border-radius: 4px;
-}
-
-.header-menu a:hover:after {
-  width: 80%;
+.header-menu a:hover {
+  color: #ff9c7b;
 }
 
 @media (max-width: 1200px) {
