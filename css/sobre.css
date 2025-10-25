@@ -43,7 +43,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
+  width: 100%;
   height: auto;
   margin: 0 auto;
 }
@@ -55,14 +55,27 @@
 }
 
 @media (max-width: 500px) {
-  .sobre {
-    padding: 60px 40px;
+  .container-sobre {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 8px;
   }
-
+  .sobre {
+    padding: 60px 20px;
+  }
+  .sobre h1 {
+    white-space: nowrap;
+    margin-bottom: 24px;
+  }
+  .sobre p {
+    margin-top: 0;
+    margin-bottom: 0px;
+  }
   .botao {
-    font-size: 1rem;
-    line-height: 1.1;
-    padding: 14px 32px;
+    font-size: 0.8rem;
+    line-height: 1;
+    padding: 8px 16px;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(233, 173, 233, 0.2);
     margin-top: 16px;
