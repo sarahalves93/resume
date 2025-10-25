@@ -22,7 +22,7 @@ function typeEffect() {
     if (index > text.length) {
       deleting = true;
       index = text.length - 1;
-      setTimeout(typeEffect, 1500);
+      setTimeout(typeEffect, 1000);
       return;
     }
   } else {
