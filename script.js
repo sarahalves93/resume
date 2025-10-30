@@ -22,7 +22,7 @@ function typeEffect() {
     if (index > text.length) {
       deleting = true;
       index = text.length - 1;
-      setTimeout(typeEffect, 1000);
+      setTimeout(typeEffect, 500);
       return;
     }
   } else {
@@ -30,7 +30,7 @@ function typeEffect() {
     if (index < 0) {
       deleting = false;
       index = 0;
-      setTimeout(typeEffect, 500);
+      setTimeout(typeEffect, 300);
       return;
     }
   }
