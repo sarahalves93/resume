@@ -1,0 +1,11 @@
+footer {
+  max-width: 100%;
+  padding: 40px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-copy {
+  color: #c4c4c4;
+  font-size: 0.875rem;
+}
